@@ -83,7 +83,7 @@ try {
 //				}
 //			});
 			
-			btnBack = (Button) findViewById(R.id.buttonBack);
+			btnBack = (Button) findViewById(R.id.buttonPre);
 			btnBack.setOnClickListener(new OnClickListener() {
 				
 				@Override
@@ -95,7 +95,7 @@ try {
 				}
 			});
 			
-			btnNext = (Button) findViewById(R.id.buttonFinish);
+			btnNext = (Button) findViewById(R.id.buttonNext);
 			btnNext.setOnClickListener(new OnClickListener() {
 				
 				@Override

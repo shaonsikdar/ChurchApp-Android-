@@ -42,6 +42,8 @@
             android:layout_weight="1"
             android:background="@drawable/add_button" />
 
+        android:layout_width="160dp"
+            android:layout_height="100dp"
         <Button
             android:id="@+id/buttonStart"
             android:layout_width="0dp"

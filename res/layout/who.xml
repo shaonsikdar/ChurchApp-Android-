@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/who"
+            android:textSize="25dp" />
+        
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="7"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        <Button
+            android:id="@+id/buttonInd"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/indi"
+             />
+        
+        <Button
+            android:id="@+id/buttonFamily"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="34dp"
+            android:background="@drawable/familia" />
+        
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/buttonGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/grupo" />
+         
+        
+	</LinearLayout>
+	
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:padding="10dp"
+        android:layout_weight="2">
+        
+              
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_back"
+            android:textColor="@color/white" />
+        
+    </RelativeLayout>
+
+</LinearLayout>

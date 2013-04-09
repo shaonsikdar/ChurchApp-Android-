@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+    <Spinner
+        android:id="@+id/spinnerCaptin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editTextDate"
+        android:layout_alignRight="@+id/editTextDate"
+        android:layout_below="@+id/editTextDate"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/combob" />
+
+    <EditText
+        android:id="@+id/editTextMemCode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinnerTown"
+        android:layout_alignRight="@+id/editTextDate"
+        android:layout_below="@+id/spinnerTown"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/mem_code"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/buttonAddMem"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/add_button" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/start_button" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextDayCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextMemCode2"
+        android:layout_below="@+id/editTextMemCode2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/day_code"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextMemCode2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextMemCode1"
+        android:layout_below="@+id/editTextMemCode1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/mem_code"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinnerTown"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/spinnerCaptin"
+        android:layout_alignRight="@+id/spinnerCaptin"
+        android:layout_below="@+id/spinnerCaptin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/combob" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textb"
+        android:ems="10"
+        android:hint="@string/auto_date" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

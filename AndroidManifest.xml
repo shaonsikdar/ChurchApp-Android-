@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.example.churchapp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.churchapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".WhoActivity"/>
+        <activity android:name=".FinishActivity"/>
+        <activity android:name=".InfoActivity"/>
+        <activity android:name=".PrayerActivity"/>
+        <activity android:name=".PrayerTypeActivity"/>
+        <activity android:name=".WantCallActivity"/>
+        <activity android:name=".StatusActivity"/>
+        <activity android:name=".NumberActivity"/>
+        
+        
+    </application>
+</manifest>

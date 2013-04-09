@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">ChurchApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="auto_date">  Auto Date By Country</string>
+    <string name="mem_code">  Member Code</string>
+    <string name="day_code">  Day Code</string>
+    <string name="start">Start</string>
+    <string name="add_mem">Add Member</string>
+    <string name="Captin">Captin</string>
+    <string name="Town">town</string>
+    <string name="who">WHO</string>
+    <string name="indi">Individual</string>
+    <string name="family">Family</string>
+    <string name="group">Group</string>
+    <string name="year">  Year</string>
+    <string name="name">  Name</string>
+    <string name="tel">  Phone</string>
+    <string-array name="country_arrays">
+        <item>Captin</item>
+        <item>Costa Rica</item>
+        <item>United State</item>
+        <item>China</item>
+        <item>...</item>
+
+    </string-array>
+    <string-array name="area_arrays">
+        <item>Town</item>
+        <item>San Jos</item>
+        <item>Beijing</item>
+        <item>New York</item>
+        <item>...</item>
+    </string-array>
+    <string name="other">Other</string>
+    <string name="quantity">Quantity</string>
+</resources>

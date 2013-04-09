@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Want Call"
+            android:textSize="35dp" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:padding="10dp"
+        android:orientation="vertical" >
+        
+         
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+            
+			        <Button
+			            android:id="@+id/buttonOK"
+			            android:layout_width="0dp"
+			            android:layout_height="120dp"
+			            android:layout_weight="1"
+			            android:background="@drawable/call" />
+			
+			        <Button
+			            android:id="@+id/buttonCancel"
+			            android:layout_width="0dp"
+			            android:layout_height="120dp"
+			            android:layout_weight="1"
+			            android:layout_marginLeft="10dp"
+			            android:background="@drawable/dontcall" />
+        
+	        </LinearLayout>
+			        
+      </LinearLayout>
+
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:padding="10dp"
+        android:layout_weight="2">
+        
+              
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_back"
+            android:textColor="@color/white" />
+        
+    </RelativeLayout>
+
+</LinearLayout>
